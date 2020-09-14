@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: deepskyblue;
+    min-width: 250px;
+    font-family: sans-serif;
+
+  }
+  
+
+  ul {
+    margin-left: 28%;
+    width: 41%;
+  }
+  
+  ul li {
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: powderblue;
+    font-size: 18px;
+    transition: 0.2s;
+    border-radius: 15px;
+  }
+
+  ul li.checked {
+    background: green;
+    color: #fff;
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .header {
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    margin-left: 28%;
+    border: none;
+    border-radius: 15px;
+    width: 45%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
